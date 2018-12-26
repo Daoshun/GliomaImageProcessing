@@ -18,7 +18,7 @@ set_trainable = False
 # print(conv_base)
 # include_top :是否包括顶层的全链接层 input_shape: 必须大于（48,48,3）
 
-base_dir = '/home/vincent/data/FlairGliomaImageProcessing'
+base_dir = '/home/vincent/data/T2GliomaImageProcessing'
 train_dir = os.path.join(base_dir, 'train')
 validation_dir = os.path.join(base_dir, 'validation')
 test_dir = os.path.join(base_dir, 'test')
